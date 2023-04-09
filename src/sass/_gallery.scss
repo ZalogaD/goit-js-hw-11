@@ -1,0 +1,29 @@
+.gallery {
+  width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.btn-load-more {
+  color: white;
+  background-color: #20214F;
+  padding: 7px 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+}
