@@ -77,7 +77,7 @@ async function onClick() {
         loadBtn.classList.add('is-hidden');
         showMessage();
       }
-    galleryEl.lastElementChild.scrollIntoView({
+    gallery.lastElementChild.scrollIntoView({
       behavior: 'smooth',
       });
     } catch (error) {
