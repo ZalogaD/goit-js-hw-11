@@ -11,13 +11,13 @@ const PER_PAGE = 40;
 let page = 1;
 let value = '';
 
-searchForm.addEventListener('submit', onSubmit);
-loadBtn.addEventListener('click', onClick);
-
 const searchForm = document.querySelector('.search-form');
 const galleryEl = document.querySelector('.gallery');
 const loadBtn = document.querySelector('.btn-load-more');
 const lightbox = new SimpleLightbox('.gallery a', {});
+
+searchForm.addEventListener('submit', onSubmit);
+loadBtn.addEventListener('click', onClick);
 
 async function onSubmit(event) {
   try {
